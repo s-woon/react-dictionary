@@ -9,7 +9,7 @@ import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_APIKEY,
   authDomain: process.env.REACT_APP_API_AUTHDOMAIN,
-  projectId: process.env.PROJECTID,
+  projectId: "sparta-dictionary-c7db7",
   storageBucket: process.env.STORAGEBUCKET,
   messagingSenderId: process.env.MESSGINGSENDERID,
   appId: process.env.APPID,
